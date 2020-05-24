@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class ejercicio_4_hs {
 
 	public static void main(String args[]) throws IOException {
@@ -27,7 +31,7 @@ public class ejercicio_4_hs {
 			resultado = num1/num2;
 			break;
 		case 5:
-			resultado = Math.pow(num1,num2);
+			resultado = (int) Math.pow(num1, num2);
 			break;
 		default:
 			System.out.println("payaso te crees");
